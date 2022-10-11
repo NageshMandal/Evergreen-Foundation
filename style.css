@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 li,a,button{
     font-family:"Montserrat",sans-serif;
@@ -55,12 +56,52 @@ header img{
 .col-2{
     display:flex;
     justify-content: space-between;
+    background: radial-gradient(rgb(255, 255, 255),rgb(212, 212, 212));
 }
 .heading{
-    margin-left:30%;
-    margin-top:150px;
+    margin-left:10%;
+    margin-top:130px;
 }
 .heading h1{
+    color: #047400;
     font-family: sans-serif;
-    font-size:60px;
+    font-size:70px;
+    letter-spacing:0.3rem;
+    font-weight: bolder;
+}
+.para{
+    margin-top: 30px;
+    font-size:20px;
+    line-height:2.2rem;
+}
+.para .p2{
+    margin-top:40px;
+    font-size:20px;
+}
+.btn{
+    margin-top:50px;
+}
+.btn-1{
+    font-size:25px;
+    padding:5px 15px;
+    color: rgb(255, 255, 255);
+    background-color: #047400;
+    border-radius:30px;
+}
+.btn-1:hover{
+    background-color:rgb(0, 185, 185);
+    transform: scaleX(2);
+    transform: scaley(1.1);
+    box-shadow: 1px 1px 10px rgb(188, 188, 188);
+}
+.img-1 img{
+    margin-left:50px;
+    margin-top: 130px;
+    width:250px;
+    box-shadow: 8px 8px 8px#1c2020
+}
+.para-1 p{
+    font-size:17px;
+    margin-top: 30px;
+    margin-left:50px;
 }
