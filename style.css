@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif;
+    font-family: "Bebas Neue", sans-serif;
 }
 li,a,button{
     font-family:"Montserrat",sans-serif;
@@ -62,12 +62,17 @@ header img{
     margin-left:10%;
     margin-top:130px;
 }
-.heading h1{
-    color: #047400;
-    font-family: sans-serif;
+.heading .hed{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:70px;
-    letter-spacing:0.3rem;
-    font-weight: bolder;
+    letter-spacing:0.2rem;
+    font-weight:bolder;
+}
+.hed{
+    color:#343434;
+}
+.hed span{
+    color: #047400;
 }
 .para{
     margin-top: 30px;
@@ -104,4 +109,12 @@ header img{
     font-size:17px;
     margin-top: 30px;
     margin-left:50px;
+}
+.img{
+    filter: drop-shadow(20px 20px 100px #565656);
+}
+.p3{
+    padding-top:30px;
+    line-height:1.8rem;
+    font-size:18px;
 }
