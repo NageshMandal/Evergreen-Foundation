@@ -118,3 +118,20 @@ header img{
     line-height:1.8rem;
     font-size:18px;
 }
+.col-3{
+    display: flex;
+}
+.img-3 img{
+    width: 300px;
+    margin-top:100px;
+    margin-left:19rem;
+    margin-bottom: 50px;
+    box-shadow: 8px 8px 8px#1c2020
+}
+.para-3 p {
+    line-height:2rem;
+    margin-top: 15rem;
+    margin-left:50px;
+    font-size: 1.3rem;
+    color: #035600;
+}
