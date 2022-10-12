@@ -100,6 +100,9 @@ header img{
     transform: scaley(1.1);
     box-shadow: 1px 1px 10px rgb(188, 188, 188);
 }
+.btn-2{
+    display: none;
+}
 .img-1 img{
     margin-left:50px;
     margin-top: 130px;
@@ -170,6 +173,7 @@ header img{
 @media screen and (max-width: 640px){
     .btn-1{
         display:inline;
+        margin-left:40%;
     }
     .col-2{
         display: none;
@@ -184,9 +188,14 @@ header img{
         margin-left: 40%;
         width: 70px;
     }
+    .btn-2{
+        margin-top: 30px;
+        margin-left: 20px;
+        display:block;
+        width: 350px;
+    }
     
 }
 .btn-p{
-    margin-left:32%;
     margin-top:200px;
 }
