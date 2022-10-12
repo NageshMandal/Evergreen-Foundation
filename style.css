@@ -135,3 +135,34 @@ header img{
     font-size: 1.3rem;
     color: #035600;
 }
+.col-4{
+    background-color: #2e2e2e;
+    padding-top: 30px;
+    padding-bottom:20px;
+}
+.about{
+    text-align: center;
+}
+.about p {
+    color: white;
+    font-size: 20px;
+}
+.about a{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.about a:hover{
+    color: rgb(0, 173, 216);
+}
+.contact{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.contact i{
+    padding:5px;
+    color: aliceblue;
+}
+.contact i:hover{
+    color: aqua;
+}
