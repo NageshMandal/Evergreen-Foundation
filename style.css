@@ -185,13 +185,16 @@ header img{
         display: none;
     }
     .logo{
-        margin-left: 40%;
-        width: 70px;
+        margin-left: 32%;
+        width: 120px;
     }
     .btn-2{
         margin-left: 27px;
         display:block;
         width: 350px;
+    }
+    header{
+        height: 150px;
     }
     
 }
