@@ -26,9 +26,9 @@ header{
     display: inline-block;
 }
 .nav__links li a{
-    font-size: 13px;
+    font-size: 15px;
     transition: all 0.3 ease 0s;
-    padding-left: 8px;
+    padding-left: 10px;
 }
 .nav__links li a:hover{
     color:rgb(0, 185, 185);
@@ -60,7 +60,7 @@ header{
     line-height: 2rem;
 }
 form{
-    margin-left:5.5rem;
+    margin-left:8rem;
     margin-top:10px;
 }
 .heading{
@@ -81,7 +81,7 @@ form{
 }
 .img{
     margin-top:20px;
-    margin-left:1.8rem;
+    margin-left:4rem;
     margin-bottom:10px;
 }
 .img img{
